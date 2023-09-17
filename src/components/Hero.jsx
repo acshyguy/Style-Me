@@ -71,42 +71,49 @@ import Alibaba from "../assets/icons/Alibaba-logo.svg";
 const hero = () => {
   return (
     <div>
-        <div className="top my-4 pl-4  flex ">
-            <div className="wrapper grid md:grid-flow-col md:gap-6 mx-auto ">
-            <div className="text">
-                <h1 className="text-4xl my-6 font-extrabold leading-[50px]">Revolutionize your <br /><span className="text-[#FCA311]">Fashion Game</span> with<span className="text-[#FCA311]"><br /> StyleMe.</span> </h1>
-                <h6 className="my-6">Upgrade your fashion style wth Stylme and standout</h6>
-                <button className="text-[#FCA311] bg-[#14213D] px-6 py-2 border border-[#14213D] flex items-center  hover:bg-[#0b0b0b]">
-                Get Started <img src={GetStartedArrow} alt="" className="" />
-                </button>
-            </div>
-            <div className="image ">
-                <img src={Pix} alt="" className=" md:ml-6 " />
-            </div>
-            </div>
-        </div>
-
-        <div className=" flex items-center gap-3 pt-400 flex-shrink-0 w-1239px h-253px">
-          <div className="">
-            <img src={InterswitchLogo} alt="" resize/>
+      <div className="top my-4 pl-4  flex ">
+        <div className="wrapper grid md:grid-flow-col md:gap-6 mx-auto ">
+          <div className="text">
+            <h1 className="text-4xl my-6 font-extrabold leading-[50px]">
+              Revolutionize your <br />
+              <span className="text-[#FCA311]">Fashion Game</span> with
+              <span className="text-[#FCA311]">
+                <br /> StyleMe.
+              </span>{" "}
+            </h1>
+            <h6 className="my-6">
+              Upgrade your fashion style wth Stylme and standout
+            </h6>
+            <button className="text-[#FCA311] bg-[#14213D] px-6 py-2 border border-[#14213D] flex items-center  hover:bg-[#0b0b0b]">
+              Get Started <img src={GetStartedArrow} alt="" className="" />
+            </button>
           </div>
-          <div className="">
-            <img src={VerveLogo} alt="" resize/>
-          </div>
-          <div>
-            <img src={Quickteller} alt="" />
-          </div>
-          <div>
-            <img src={Amazon} alt="" />
-          </div>
-          <div>
-            <img src={Jumia} alt="" />
-          </div>
-          <div>
-            <img src={Alibaba} alt="" />
+          <div className="image ">
+            <img src={Pix} alt="" className=" md:ml-6 " />
           </div>
         </div>
+      </div>
 
+      <div className=" flex items-center gap-3 pt-400 flex-shrink-0 w-1239px h-253px">
+        <div className="">
+          <img src={InterswitchLogo} alt="" resize />
+        </div>
+        <div className="">
+          <img src={VerveLogo} alt="" resize />
+        </div>
+        <div>
+          <img src={Quickteller} alt="" />
+        </div>
+        <div>
+          <img src={Amazon} alt="" />
+        </div>
+        <div>
+          <img src={Jumia} alt="" />
+        </div>
+        <div>
+          <img src={Alibaba} alt="" />
+        </div>
+      </div>
     </div>
   );
 };
